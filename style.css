@@ -1,0 +1,92 @@
+.mainContainer {
+	width: 100vw;
+}
+
+.header {
+	/*background: green;*/
+	display: flex;
+	height: 100px;
+}
+
+.logo {
+	width: 61px;
+	height: 61px;
+	align-self: center;
+	margin-left: 120px;
+	}
+
+.menuList {
+	list-style-type: none;
+	gap: 20px;
+	display: inline-flex;
+	margin-top: 35px;
+	margin-left: auto;
+	padding-right: 120px;
+	font-family: Mulish;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bodyContent {
+	width: 100vw;
+	display: flex;
+	margin-top: 238px;
+	/*align-items: center;*/
+}
+
+.halfLeft {
+	width: 50vw;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.halfLeftItems {
+	/*background: blue;*/
+	list-style-type: none;
+	margin-left: 120px;
+	margin-right: 104px;
+}
+
+.bodyItemTop {
+	width: 603px;
+	font-family: 'Noto Sans Arabic';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 63px;
+	text-transform: capitalize;
+}
+
+.bodyItemMiddle {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-family: 'Noto Sans Arabic';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 51px;
+	text-transform: capitalize;
+}
+
+.bodyItemBottom {
+	font-family: 'Oxygen';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	text-transform: capitalize;
+	color: white;
+	background: rgba(85, 85, 255, 0.81);
+	padding: 15px 30px;
+	gap: 10px;
+}
+.halfRight {
+	width: 50vw;
+	/*background: green;*/
+	align-self: center;
+	margin-left: 120.42px;
+}
